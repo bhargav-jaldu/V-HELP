@@ -1,0 +1,14 @@
+.containerr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .subject {
+    color: orange;
+  }
+
+  .title {
+    color :purple;
+  }

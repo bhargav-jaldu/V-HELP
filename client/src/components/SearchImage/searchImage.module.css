@@ -1,0 +1,46 @@
+.container {
+  /* background-color: rgb(192, 187, 187); */
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  flex-direction: column;
+  padding: 10px 0;
+  margin: 5px auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(223, 219, 219);
+}
+
+.searchInput {
+  margin: 10px 0;
+}
+
+.imageContainer {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+  border-radius: 20px;
+  background-color: rgb(223, 219, 219);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.imageC {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imageContainer img {
+  max-width: 400px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading2 {
+  text-align: center;
+}

@@ -1,0 +1,66 @@
+/* .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #eee;
+    background-color: #fff;
+  } */
+
+  /* teacher Form */
+
+  .teacherFormContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 0 80px 0;
+  }
+
+  .teacherFormContainer .item {
+    width: 400px;
+    margin: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .teacherFormContainer .item .image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .con {
+    text-align: center;
+  }
+
+  .desc {
+    color: rgb(173, 170, 170);
+  }
+
+  .tag {
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    background: orange;
+  }
+
+  .uploadedTag {
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    background: pink;
+  }
+
+  .marks {
+    display: flex;;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .marksTag {
+    color: orange;
+  }

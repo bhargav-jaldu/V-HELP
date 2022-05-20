@@ -1,0 +1,25 @@
+/* body {
+  background-image: linear-gradient(to right #92a5cf, #e4efe9);
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  background-color: #fff;
+}
+
+.detailsImage {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comments {
+  padding: 15px 0;
+}
