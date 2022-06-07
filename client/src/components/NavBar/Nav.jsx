@@ -3,6 +3,7 @@ import styles from './Nav.module.css';
 import { useHistory } from 'react-router';
 import {Link} from 'react-router-dom'
 import {Button} from "@material-ui/core"
+import {Typography} from '@material-ui/core'
 
 
 const Nav = () => {
@@ -75,7 +76,7 @@ const Nav = () => {
         if(loggedInStatus === 'true') {
             result = <div className={styles.container}>
             <nav className={styles.navbar}>
-                <h1>V-HELP</h1>
+                <Typography variant = "h5">V-HELP</Typography>
                 <div className={styles.navContainer}>
                     <ul>
                         <Link to='/postform'><li className={home ? styles.selected : ''} onClick={handleHome}>Home</li></Link>
@@ -91,7 +92,7 @@ const Nav = () => {
         } else {
             result = <div className={styles.container}>
                 <nav className={styles.navbar}>
-                    <h1>Social Media</h1>
+                <Typography variant = "h5">V-HELP</Typography>
                 </nav>
             </div>
         }

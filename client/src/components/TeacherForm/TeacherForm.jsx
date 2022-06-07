@@ -179,7 +179,7 @@ const TeacherForm = () => {
                     post.id === ass.toWhichAssign && localStorage.getItem('username') === post.creator && pId === post.id ? 
                     <div>
                     <Typography variant="h6" className={styles.uploadedTag}>{ass.whoUploaded}</Typography> <br />
-                    <embed src={`assignments/${ass.assignment}`} width="100%" height="200px" /> <br /><br />
+                    <embed src={`assignments/${ass.assignment}`} width="100%" height="400px" /> <br /><br />
                     <TextField name="creator" variant="outlined" label="Marks" onChange={(e) => setMarks(e.target.value)} fullWidth/> <br /> <br />
                     <Button variant="contained" color="primary" component="span" onClick={() => giveMarks(ass.toWhichAssign)}>Give Marks</Button><br /><br />
 

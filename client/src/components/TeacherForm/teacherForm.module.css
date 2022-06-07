@@ -72,7 +72,7 @@ button {
   }
 
   .teacherFormContainer .item {
-    max-width: 400px;
+    width: 100%;
     margin: 30px;
     background: #fff;
     padding: 20px;
@@ -81,8 +81,8 @@ button {
 
   .teacherFormContainer .item .image {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 400px;
+    object-fit: contain;
   }
   
   .con {

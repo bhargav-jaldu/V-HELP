@@ -131,7 +131,7 @@ const classes = useStyles();
                         }
                         </Typography> 
                     </div>  <br />
-                    <embed src={`assignments/${ass.assignment}`} width="100%" height="200px" />
+                    <embed src={`assignments/${ass.assignment}`} width="100%" height="400px" />
                 </>
                 : ""
               ))
