@@ -82,6 +82,7 @@ const Nav = () => {
                         <Link to='/postform'><li className={home ? styles.selected : ''} onClick={handleHome}>Home</li></Link>
                         <Link to='/viewAllPosts'><li className={posts ? styles.selected : ''} onClick={handlePosts}>Posts</li></Link>
                         <Link to='/uploadAssignement'><li className={ass ? styles.selected : ''} onClick={uploadAssignement}>Assignements</li></Link>
+                        <a href="http://localhost:3002/"><li>Chat</li></a>
                         {/* <Link to='/chat'><li className={chat ? styles.selected : ''} onClick={handleChat}>Chat</li></Link>
                         <Link to='/maps'><li className={map ? styles.selected : ''} onClick={handleMap}>Maps</li></Link> */}
                     </ul>

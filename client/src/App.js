@@ -5,8 +5,8 @@ import PostForm from './components/PostForm/PostForm'
 import Formm from './components/Registration/Form'
 import ViewAllPosts from './components/ViewAllPosts/ViewAllPosts'
 import PostDetail from './components/PostDetail/PostDetail'
-import Chat from './components/Chat/Chat'
-import ChatUser from './components/ChatUser/ChatUser'
+// import Chat from './components/Chat/Chat'
+// import ChatUser from './components/ChatUser/ChatUser'
 import uploadAssignement from './components/uploadAssignment/uploadAssignment'
 
 // https://medium.com/@ideepaksharma/develop-and-integrate-amazon-lex-chatbot-into-website-47f50fe4cfed
@@ -23,8 +23,8 @@ const App = () => {
                     <Route path="/viewAllPosts" exact component={ViewAllPosts} />
                     <Route path="/viewAllPosts/:id" component = {PostDetail} />
                     <Route path = "/uploadAssignement" component = {uploadAssignement} />
-                    <Route path="/chat" exact component= {Chat} />
-                    <Route path="/chat/:id" component= {ChatUser} />
+                    {/* <Route path="/chat" exact component= {Chat} />
+                    <Route path="/chat/:id" component= {ChatUser} /> */}
                 </Switch>
             </Router>
         </div>
